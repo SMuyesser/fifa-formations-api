@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: NN/sY6iKmse9M9QxCXYau9A2TSUmWa0RrWLntC0JT+yc0+idd3v/E0426OXDMLYOTQlIitcxJFjqbCHjcw+sc637zjmQSfNNZ2B1QUscQ+W+RmjKrJx7gCbZV8S+geyYC94gDpxKKgNTA5S9Km4Ewx1S+VoAnW6yGoYBujwSN+uIpm1OSkYKUC3aeLEgUiwksw35Ztqy0Jl+s5mXWfODQHoqQXpdRqJS5zQkok4x1buoWm9bSqv6uTthx4t9VWPGQCN20CcwbvSQ+aUCqsYjas1Tbdh/CTYRAKPr+8GPNH79tJo35Eo6DC29nWPnpnKakyXoCJktqdMZx4R5pT50G0k73p3Rlca1CKEWIFwh5ZPpYsZ3usgLPPkJM9wIfQxBPYEO3W8V0ON5NG7JuXyA6X6mrKs9NWv6Gi/IS8JhQLggPZ7fZ36keyYXskO1It/WAuUyO36LLYiq1rMsI/xn0FTR+L62aZI1JTqDICgYipU5HQQH6uKemLCjLXCTMpUOQIGbz+F0ro5bGVBWHDH7OfO5S3UXeTf6oimekLFbyM+BwTKkvERNAaj+nvPGdc5x5PmM1faaNCaXboeOJl3yPGR+bFapB2NSzlr3dM/iSdWsAgw1xzpMOiMiPAl9I+ULmGwXBf0iAVVIKZryJEWHlmTksujbCPdG4Rvx071A3Hs=
+  app: evening-basin-17767
+  on:
+    repo: SMuyesser/fifa-formations-api
