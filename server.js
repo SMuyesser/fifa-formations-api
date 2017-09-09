@@ -30,7 +30,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.use('/', formations);
+app.use('/formations', formations);
 
 //catch all if with 404 not found
 app.use('*', (req, res) => {

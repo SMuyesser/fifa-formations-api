@@ -15,9 +15,18 @@
  		closeServer();
  	});
 
-   it('should have status 200 on GET requests', function() {
+   it('should have status 200 on GET single formation requests', function() {
      return chai.request(app)
-       .get('/4-1-2-1-2')
+       .get('/formations/4-1-2-1-2')
+       .then(function(res) {
+         res.should.have.status(200);
+         res.should.be.json;
+       });
+   });
+
+   it('should have status 200 on GET single all formations requests', function() {
+     return chai.request(app)
+       .get('/formations')
        .then(function(res) {
          res.should.have.status(200);
          res.should.be.json;
