@@ -1,18 +1,23 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 const cors = require('cors');
 
 const {CLIENT_ORIGIN, PORT, DATABASE_URL} = require('./config');
-const {Formation} = require('./models/formationSchema');
+const formations = require('./routes/formations');
 
 const app = express();
 
-mongoose.Promise = global.Promise;
 
 // Logging
 app.use(morgan('common'));
+
+// BodyParser Middleware
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cookieParser());
 
 // CORS
 app.use(function (req, res, next) {
@@ -25,29 +30,14 @@ app.use(function (req, res, next) {
   next();
 });
 
+app.use('/', formations);
+
 //catch all if with 404 not found
 app.use('*', (req, res) => {
   return res.status(404).json({message: 'Not Found'});
 });
 
-
-
-/******************************************************************
-	Endpoints
-******************************************************************/
-
-//get formation info
-app.get('/:formation', (req, res) => {
-  Formation.findOne({'formation':req.params.formation}, function (err, formation) {  
-      if (err) {
-          res.status(500).send(err);
-      } else {
-          res.status(200).send(formation);
-      }
-  })
-});
-
-
+mongoose.Promise = global.Promise;
 
 /******************************************************************
 	Server
