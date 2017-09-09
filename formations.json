@@ -204,7 +204,7 @@
 	},
 	"playerInstructions": {
 		"fwd": ["ST: Stay Central & Get In Behind"],
-		"mid": ["CM(both): Stay on Edge Of Box", "CM(1 of 2): Stay Back While Attacking" "CDM: Stay Back While Attacking"],
+		"mid": ["CM(both): Stay on Edge Of Box", "CM(1 of 2): Stay Back While Attacking", "CDM: Stay Back While Attacking"],
 		"def": ["LB/RB: Stay Back While Attacking"]
 	}
 }
