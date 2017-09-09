@@ -1,0 +1,750 @@
+{
+	"formation": "3-4-1-2",
+	"image": "./images/3412.jpg",
+	"strength": ["Balanced", "Positioning", "Spacing"],
+	"weakness": ["No CDM", "Weaker Defence", "Requires High Rated CBs"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST(speed): Stay Central & Get In Behind", "ST(strength): Stay Central & Target Man"],
+		"mid": ["LM/RM: Come Back On Defence & Stay Wide & Get In Behind", "CAM: Stay Central", "CM1/CM2: Stay Back While Attacking"],
+		"def": ["Default"]
+	}
+}
+{
+	"formation": "3-4-2-1",
+	"image": "./images/3421.jpg",
+	"strength": ["Strong Attack", "Four Wingers", "Spacing"],
+	"weakness": ["Requires High Defence Skill", "Requires High Rated CBs"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST: Stay Central & Target Man", "LF/RF: Get In Behind"],
+		"mid": ["LM/RM: Come Back On Defence & Stay Wide", "CM1/CM2: Stay Back While Attacking & Conservative Interceptions"],
+		"def": ["Default"]
+	}
+}
+{
+	"formation": "3-4-3",
+	"image": "./images/343.jpg",
+	"strength": ["Strong Attack", "Four Wingers", "Spacing"],
+	"weakness": ["Requires High Defence Skill", "Requires High Rated CBs"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST: Stay Central & Target Man", "LF/RF: Stay Forward & Cut Inside"],
+		"mid": ["LM/RM: Stay Wide", "CM1/CM2: Stay Back While Attacking"],
+		"def": ["Default"]
+	}
+}
+{
+	"formation": "3-5-2",
+	"image": "./images/352.jpg",
+	"strength": ["Strong Attack", "Strong Midfield", "Spacing"],
+	"weakness": ["Requires High Defence Skill", "Requires High Rated CBs", "LM/RM Not Involved As Much"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST1(speed): Get In Behind & Stay Central", "ST2(strength): Target Man & Stay Central"],
+		"mid": ["CDM1/CDM2: Stay Back While Attacking & Cut Passing Lanes", "LM/RM: Stay Wide & Get In Behind"],
+		"def": ["Default"]
+	}
+}
+{
+	"formation": "4-1-2-1-2",
+	"image": "./images/41212.jpg",
+	"strength": ["Triangles", "Balanced", "Counter Attacks"],
+	"weakness": ["Only One CDM"],
+	"tactics": {
+		"buildUp": {
+			"speed": 90,
+			"passing": 50,
+			"positioning": "Organized"
+		},
+		"chanceCreation": {
+			"passing": 50,
+			"shooting": 70,
+			"crossing": 50,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 35,
+			"aggression": 45,
+			"teamWidth": 25,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST(speed): Get In Behind", "ST(strength): Target Man"],
+		"mid": ["CAM: Free Roam", "LM/RM: Get In Behind", "CDM: Stay Back While Attacking"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-1-2-1-2(2)",
+	"image": "./images/41212(2).jpg",
+	"strength": ["Tiki-Taka", "Triangles", "Press Formation", "Crowded Middle"],
+	"weakness": ["CDM Isolation"],
+	"tactics": {
+		"buildUp": {
+			"speed": 90,
+			"passing": 50,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 60,
+			"crossing": 40,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 40,
+			"aggression": 60,
+			"teamWidth": 40,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST1/ST2: Press Back Line & Get In Behind"],
+		"mid": ["CAM: Free Roam & Stay Forward", "CDM: Stay Back While Attacking & Man Mark"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-1-4-1",
+	"image": "./images/4141.jpg",
+	"strength": ["Strong Defence", "Strong Midfield", "Manage Game"],
+	"weakness": ["Weak Attack"],
+	"tactics": {
+		"buildUp": {
+			"speed": 60,
+			"passing": 45,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 45,
+			"shooting": 50,
+			"crossing": 70,
+			"positioning": "Organized"
+		},
+		"defence": {
+			"pressure": 55,
+			"aggression": 60,
+			"teamWidth": 50,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST: Stay Central & Get In Behind"],
+		"mid": ["CM(both): Stay on Edge Of Box", "CM(1 of 2): Stay Back While Attacking" "CDM: Stay Back While Attacking"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-2-2-2",
+	"image": "./images/4222.jpg",
+	"strength": ["Possession", "Two Strikers", "Two CDMs"],
+	"weakness": ["No Wingers", "No CAM"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST1/ST2: Stay Central"],
+		"mid": ["CAM1/CAM2: Stay Forward", "CDM1/CDM2: Stay Back While Attacking & Cut Passing Lanes"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-2-3-1",
+	"image": "./images/4231.jpg",
+	"strength": ["Strong Defence", "Strong Midfield", "Spacing"],
+	"weakness": ["Lack Of Wingers", "Weaker Attack"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST: Stay Forward & Target Man"],
+		"mid": ["CAM(middle): Stay Forward", "CDM1/CDM2: Cut Passing Lanes & Stay Back While Attacking"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-2-3-1(2)",
+	"image": "./images/4231(2).jpg",
+	"strength": ["Balanced", "Strong Midfield", "Strong Defence"],
+	"weakness": ["Spacing", "One Striker"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST: Stay Central"],
+		"mid": ["CAM: Stay Forward", "CDM1/CDM2: Cut Passing Lanes & Stay Back While Attacking", "LM/RM: Stay Forward & Cut Inside"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-3-1-2",
+	"image": "./images/4312.jpg",
+	"strength": ["Midfield Passing", "Two Strikers", "Positioning", "Spacing"],
+	"weakness": ["No Wingers", "No CDM"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST1(speed): Stay Central & Get In Behind", "ST2(strength): Stay Central & Target Man"],
+		"mid": ["CAM: Stay Forward", "CM(2 of 3): Stay Back While Attacking"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-3-2-1",
+	"image": "./images/4321.jpg",
+	"strength": ["Aggressive", "Direct Play", "Counter", "High Press"],
+	"weakness": ["High Risk", "Open To Counter"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 60,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 65,
+			"crossing": 30,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 50,
+			"aggression": 50,
+			"teamWidth": 40,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["LF/RF: Get In Behind", "ST(speed): Get In Behind", "ST(strength): False 9"],
+		"mid": ["CM(middle): Stay Back While Attacking"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-3-3",
+	"image": "./images/433",
+	"strength": ["Balanced", "Positioning", "Spacing"],
+	"weakness": ["One Striker", "No CDM"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST: Stay Central & Target Man", "LW/RW: Stay Forward & Cut Inside"],
+		"mid": ["CM(2 of 3): Stay Back While Attacking"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-3-3(2)",
+	"image": "./images/433(2).jpg",
+	"strength": ["Width", "Balanced 4-3-3", "Spacing/Counter"],
+	"weakness": ["Wing Dependent"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 67,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 65,
+			"shooting": 71,
+			"crossing": 50,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 55,
+			"aggression": 60,
+			"teamWidth": 40,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["LW/RW: Get In Behind & Cut Inside", "ST: Get In Behind & Press Back Line"],
+		"mid": ["CDM: Stay Back While Attacking"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-3-3(3)",
+	"image": "./images/433(3).jpg",
+	"strength": ["Strong Defence", "Two CDMs", "Spacing"],
+	"weakness": ["Weaker Attack"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST: Stay Central", "LW/RW: Stay Forward & Cut Inside"],
+		"mid": ["CM: Stay Forward", "CDM1/CDM2: Stay Back While Attacking & Cut Passing Lanes"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-3-3(4)",
+	"image": "./images/433(4).jpg",
+	"strength": ["Counter Attacks", "Outlet To Wings", "Game Management"],
+	"weakness": ["Lack Of Tiki-Taka"],
+	"tactics": {
+		"buildUp": {
+			"speed": 88,
+			"passing": 55,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 65,
+			"shooting": 80,
+			"crossing": 50,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 35,
+			"aggression": 55,
+			"teamWidth": 40,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["LW/RW: Get In Behind"],
+		"mid": ["CAM: Free Roam", "CM1/CM2: Stay Back While Attacking"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-3-3(5)",
+	"image": "./images/433(5).jpg",
+	"strength": ["Possesion", "Solid Defence", "Wing Play", "Balanced"],
+	"weakness": ["Slower", "Lone CDM"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["CF: Stay Central & Target Man", "LW/RW: Stay Forward & Stay Wide & Get In Behind"],
+		"mid": ["CM(1 of 2): Stay Back While Attacking", "CDM: Stay Back While Attacking & Cut Passing Lanes"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-4-1-1",
+	"image": "./images/4411.jpg",
+	"strength": ["Attacking Options", "Balanced", "Give & Go"],
+	"weakness": ["No CDM", "CF Needs High Passing"],
+	"tactics": {
+		"buildUp": {
+			"speed": 75,
+			"passing": 50,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 65,
+			"shooting": 55,
+			"crossing": 50,
+			"positioning": "Organized"
+		},
+		"defence": {
+			"pressure": 65,
+			"aggression": 65,
+			"teamWidth": 50,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST: Stay Central & Press Back Line & Get In Behind", "CF: Stay Central & Press Back Line"],
+		"mid": ["LM/RM: Get In Behind", "CM1/CM2: Stay Back While Attacking & Stay On Edge Of Box"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-4-2",
+	"image": "./images/442.jpg",
+	"strength": ["Balanced", "Two Strikers"],
+	"weakness": ["Spacing", "No CAM"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST1(speed): Get In Behind & Stay Central", "ST2(strength): Target Man & Stay Central"],
+		"mid": ["LM/RM: Cut Inside", "CM1/CM2: Stay Back While Attacking"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-4-2(2)",
+	"image": "./images/442(2).jpg",
+	"strength": ["Two Strikers", "Two CDMs", "Balanced"],
+	"weakness": ["No CAM", "Requires Correct Player Types"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST1/ST2: Stay Central & Target Man"],
+		"mid": ["LM/RM: Stay Forward & Cut Inside", "CDM1/CDM2: Cut Passing Lanes & Stay Back While Attacking"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-5-1",
+	"image": "./images/451.jpg",
+	"strength": ["Two CAMs", "Spacing", "Positioning", "Balanced"],
+	"weakness": ["Only One Striker", "Weak Defensive Midfield"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST: Stay Central & Target Man"],
+		"mid": ["CM: Stay Back While Attacking", "LM/RM: Stay Forward & Cut Inside"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "4-5-1(2)",
+	"image": "./images/451(2).jpg",
+	"strength": ["Spacing", "Positioning", "Balanced"],
+	"weakness": ["Only One Striker", "Weaker Attack"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 70,
+			"shooting": 40,
+			"crossing": 60,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 20,
+			"aggression": 55,
+			"teamWidth": 52,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST: Stay Central & Target Man"],
+		"mid": ["CM(2 of 3): Stay Back While Attacking", "LM/RM: Stay Forward & Cut Inside"],
+		"def": ["LB/RB: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "5-2-1-2",
+	"image": "./images/5212.jpg",
+	"strength": ["Five Defenders", "Possession"],
+	"weakness": ["No Forward Wingers", "Weaker Attack"],
+	"tactics": {
+		"buildUp": {
+			"speed": 70,
+			"passing": 50,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 75,
+			"shooting": 30,
+			"crossing": 75,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 45,
+			"aggression": 45,
+			"teamWidth": 55,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST1/ST2: Get In Behind & Press Back Line"],
+		"mid": ["CAM: Stay Forward", "CM1/CM2: Stay Back While Attacking"],
+		"def": ["ALL: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "5-2-2-1",
+	"image": "./images/5221.jpg",
+	"strength": ["Five Defenders", "Spacing", "Width"],
+	"weakness": ["No CAM", "No CDM"],
+	"tactics": {
+		"buildUp": {
+			"speed": 70,
+			"passing": 58,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 58,
+			"shooting": 45,
+			"crossing": 58,
+			"positioning": "Organized"
+		},
+		"defence": {
+			"pressure": 30,
+			"aggression": 40,
+			"teamWidth": 30,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST: Stay Central & Get In Behind & Press Back Line", "LW/RW: Stay Forward & Stay Wide & Get In Behind"],
+		"mid": ["CM1/CM2: Stay Back While Attacking"],
+		"def": ["ALL: Stay Back While Attacking"]
+	}
+}
+{
+	"formation": "5-3-2",
+	"image": "./images/532.jpg",
+	"strength": ["Five Defenders", "Attack From The Back"],
+	"weakness": ["No CAM", "No CDM"],
+	"tactics": {
+		"buildUp": {
+			"speed": 85,
+			"passing": 65,
+			"positioning": "Organized" 
+		},
+		"chanceCreation": {
+			"passing": 75,
+			"shooting": 20,
+			"crossing": 50,
+			"positioning": "Free Form"
+		},
+		"defence": {
+			"pressure": 30,
+			"aggression": 30,
+			"teamWidth": 55,
+			"defenderLine": "Cover"
+		}
+	},
+	"playerInstructions": {
+		"fwd": ["ST1/ST2: Stay Central & Get In Behind"],
+		"mid": ["CM(2 of 3): Stay Back While Attacking & Cut Passing Lanes"],
+		"def": ["LWB/RWB: Always Overlap"]
+	}
+}

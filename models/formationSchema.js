@@ -5,7 +5,9 @@ mongoose.Promise = global.Promise;
 const FormationSchema = mongoose.Schema({
 	formation: {
 		type: String,
-		required: true
+	},
+	image: {
+		type: String
 	},
 	strength: [{
 		type: String,
@@ -70,6 +72,7 @@ const FormationSchema = mongoose.Schema({
 FormationSchema.methods.apiRepr = function() {
 	return {
 		formation: this.formation,
+		image: this.image,
 		strength: [...this.strength],
 		weakness: [...this.weakness],
 		tactics: this.tactics,
