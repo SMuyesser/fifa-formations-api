@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const morgan = require('morgan');
 const cors = require('cors');
 
-const {CLIENT_ORIGIN, PORT, DATABASE_URL} = require('./config');
+const {PORT, DATABASE_URL} = require('./config');
 const formations = require('./routes/formations');
 
 const app = express();
@@ -18,12 +18,6 @@ app.use(morgan('common'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
-
-app.use(
-    cors({
-        origin: CLIENT_ORIGIN
-    })
-);
 
 // CORS
 app.use(function (req, res, next) {
