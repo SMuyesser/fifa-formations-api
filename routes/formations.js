@@ -1,8 +1,15 @@
 const express = require('express');
 const router = express.Router();
+const cors = require('cors');
 const app = express();
 
-const {Formation} = require('../models/formationSchema');
+const {CLIENT_ORIGIN} = require('../config.js');
+
+app.use(
+    cors({
+        origin: CLIENT_ORIGIN
+    })
+);
 
 // CORS
 app.use(function (req, res, next) {
@@ -14,6 +21,8 @@ app.use(function (req, res, next) {
   }
   next();
 });
+
+const {Formation} = require('../models/formationSchema');
 
 //get a single formation's info
 router.get('/:formation', (req, res) => {
