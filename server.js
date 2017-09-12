@@ -1,15 +1,21 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 const cors = require('cors');
+const passport = require('passport');
+
+const {router: authRouter, basicStrategy, jwtStrategy} = require('./routes/auth');
+const {router: playersRouter} = require('./routes/players');
+const {router: formationsRouter} = require('./routes/formations');
+
+mongoose.Promise = global.Promise;
 
 const {PORT, DATABASE_URL} = require('./config');
-const formations = require('./routes/formations');
 
 const app = express();
-
 
 // Logging
 app.use(morgan('common'));
@@ -30,14 +36,19 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.use('/formations', formations);
+app.use(passport.initialize());
+passport.use(basicStrategy);
+passport.use(jwtStrategy);
+
+app.use('/auth', authRouter);
+app.use('/formations', formationsRouter);
+app.use('/players', playersRouter);
 
 //catch all if with 404 not found
 app.use('*', (req, res) => {
   return res.status(404).json({message: 'Not Found'});
 });
 
-mongoose.Promise = global.Promise;
 
 /******************************************************************
 	Server

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const {Formation} = require('../models/formationSchema');
+const {Formation} = require('./models');
 
 //get a single formation's info
 router.get('/:formation', (req, res) => {
@@ -25,4 +25,4 @@ router.get('', (req, res) => {
 	})
 });
 
-module.exports = router;
+module.exports = {router};
