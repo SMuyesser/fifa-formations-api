@@ -16,36 +16,14 @@ const PlayerSchema = mongoose.Schema({
 	email: {
 		type: String,
 		required: true
-	},
-	scores: [{
-		start: {
-			type: String
-		},
-		startPic: {
-			type: String
-		},
-		end: {
-			type: String
-		},
-		endPic: {
-			type: String
-		},
-		links: [{
-			type: String
-		
-		}],
-		linkCount: {
-			type: Number
-		}
-	}]
+	}
 });
 
 PlayerSchema.methods.apiRepr = function() {
   return {
     playername: this.playername || '',
     password: this.password || '',
-    email: this.email || '',
-    scores: [...this.scores] || []
+    email: this.email || ''
   };
 }
 
